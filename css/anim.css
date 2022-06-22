@@ -1,0 +1,374 @@
+/* large screen */
+/* @media screen and (min-width: 900px) {
+  .abt-links {
+    margin: 15vmax 0;
+  }
+} */
+
+@media screen and (min-width: 1800px) {
+
+  .index-body {
+    background-size: 70%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+
+  .index-body {
+    background-size: 0%;
+  }
+}
+
+/* cursor */
+@media screen and (max-width: 1500px) {
+  *{
+    cursor: default;
+  }
+  .cursor, .cursor2, .cursor3 {
+    display: none;
+  }
+
+  .links {
+    font-size: 3vmax;
+  }
+
+  .index-body {
+    background-size: 63%;
+  }
+}
+
+/* Tablet view */
+@media screen and (max-width: 1300px) {
+
+  .index-body {
+    background-size: 0%;
+  }
+
+  .scroll-text {
+    left: 6vmax;
+    position: relative;
+  }
+
+  /* Helia Design */
+  .Helia-design {
+    height: 75vh;
+  }
+
+  /* my-intro */
+  .description-text {
+    padding: 0;
+    height: 115vh;
+  }
+
+  .first-text {
+    font-size: 4vmax;
+    margin-top: 10vmax;
+  }
+
+  .second-text {
+    grid-row: 2/2;
+    grid-column: 1/2;
+    font-size: 4vmax;
+    padding: 0 6vmax;
+  }
+
+  /* Works */
+  .works1 {
+    font-size: 19.3vmax;
+    left: 6vmax;
+  }
+
+  .works2 {
+    font-size: 19.3vmax;
+    left: 6.5vmax;
+  }
+
+  .works-links {
+    left: 6vmax;
+    width: 70%;
+  }
+
+  .links {
+    font-size: 3.5vmax;
+    padding-top: 3vmax;
+  }
+
+  /* footer */
+  .footer-text {
+    font-size: 4.5vmax;
+  }
+
+  .footer-change {
+    font-size: 8vmax;
+    border-bottom: solid black .7vmax;
+  }
+
+  .footer-link-cont {
+    width: 70%;
+  }
+
+  footer p {
+    padding-top: 2vmax;
+  }
+
+  /* About me page */
+  .abt-body {
+    background-size: 0%;
+  }
+
+  .abt-header {
+    height: 100vh;
+  }
+
+  .abt-links {
+    height: 45vh;
+    margin: 15vmax 0;
+  }
+
+  .abt-linkel {
+    font-size: 3vmax;
+    padding-top: 2vmax;
+  }
+
+  .pic-cont {
+    height: 80vh;
+  }
+
+  .my-pic {
+    position: relative;
+    left: 6vmax;
+    top: 0vmax;
+    width: 40%;
+  }
+
+  /* game-design page */
+  .game-sec-one {
+    grid-template-rows: (2, 1fr);
+  }
+
+  .game-proj {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin: 2vmax 6vmax;
+  }
+
+  .game-proj-2 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin: 2vmax 6vmax;
+  }
+
+  .game-contrib {
+    grid-column: 1/4;
+    grid-row: 2/2;
+    margin: 2vmax 6vmax;
+  }
+
+  .game-sec-one h3 {
+    font-size: 2vmax;
+  }
+
+  /* page transition */
+  .grow {
+    height: 45vh;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .Helia-design {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  /* Helia Design */
+  .Helia-design {
+    height: 40vh;
+  }
+
+  .blue-box {
+    border: solid 1vmax #142850;
+    height: 20.5vmax;
+    width: 30vmax;
+    position: absolute;
+    top: 7.5vmax;
+    left: 15vmax;
+    z-index: 2;
+  }
+
+  .lightBlue-box {
+    border-bottom: solid 1vmax #0AF4FF;
+    border-left: solid 1vmax #0AF4FF;
+    height: 16vmax;
+    width: 26vmax;
+    position: absolute;
+    top: 12vmax;
+    left: 15vmax;
+    z-index: 6;
+  }
+
+  .black-box {
+    background: black;
+    height: 20vmax;
+    width: 35.5vmax;
+    position: absolute;
+    top: 12vmax;
+    left: 5.5vmax;
+    z-index: 4;
+  }
+
+  .name1 {
+    font-size: 14vmax;
+    position: absolute;
+    top: 11vmax;
+    left: 16vmax;
+    color: #FC8621;
+    z-index: 15;
+  }
+
+  .name2 {
+    font-size: 14vmax;
+    position: absolute;
+    top: 10.4vmax;
+    left: 15.2vmax;
+    color: white;
+    z-index: 12;
+  }
+
+  .first-triangle, .second-triangle, .third-triangle, .fourth-triangle, .fifth-triangle, .sixth-triangle {
+    display: none;
+  }
+
+  /* my-intro */
+  .description-text {
+    padding: 0;
+    height: 60vh;
+  }
+
+  .first-text {
+    margin-top: 3vmax;
+  }
+
+  /* Works */
+  .works1 {
+    font-size: 16vmax;
+    left: 6vmax;
+    display: inline;
+  }
+
+  .works2 {
+    font-size: 16vmax;
+    bottom: 19.8vmax;
+    display: inline;
+  }
+
+  .works-links {
+    margin-top: 7vmax;
+    left: 6vmax;
+    width: 50%;
+  }
+
+  .links {
+    font-size: 3.5vmax;
+    padding-top: 3vmax;
+  }
+
+
+  /* About me page */
+  .abt-body {
+    background-size: 0%;
+  }
+
+  .abt-header {
+    height: 80vh;
+  }
+
+  .abt-links {
+    height: 40vh;
+    margin: 3vmax;
+  }
+
+  .abt-linkel {
+    font-size: 3vmax;
+    padding-top: 2vmax;
+  }
+
+  .pic-cont {
+    height: 30vh;
+  }
+
+  .my-pic {
+    position: relative;
+    left: 6vmax;
+    top: 0vmax;
+    width: 40%;
+  }
+
+  /* game-design page */
+  .game-sec-one {
+    grid-template-rows: (2, 1fr);
+  }
+
+  .game-proj {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin: 2vmax 6vmax;
+  }
+
+  .game-proj-2 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin: 2vmax 6vmax;
+  }
+
+  .game-contrib {
+    grid-column: 1/4;
+    grid-row: 2/2;
+    margin: 2vmax 6vmax;
+  }
+
+  .game-sec-one h3 {
+    font-size: 2vmax;
+  }
+
+  /* page transition */
+  .grow {
+    height: 45vh;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+  .two {
+    padding-left: 5vmax;
+  }
+
+  .three {
+    padding-left: 5vmax;
+  }
+
+  .four {
+    padding-left: 5vmax;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .abt-header {
+    height: 120vh;
+  }
+
+  .abt-links {
+    height: 35vh;
+    margin-top: 9vmax;
+  }
+
+  .pic-cont {
+    height: 35vh;
+  }
+
+  .my-pic {
+    width: 55%;
+  }
+}

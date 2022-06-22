@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="icon" href="images/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/anim.css">
+</head>
+
+<body>
+  <!-- Cursor -->
+  <div class="cursor arrow-right"></div>
+  <div class="cursor2 arrow-right"></div>
+  <div class="cursor3 arrow-right"></div>
+  <div class="cursor-text"></div>
+
+  <main class="wrapper">
+    <div class="inner-wrapper fade">
+
+      <!-- navbar -->
+      <nav>
+        <a class="logo-link logo" href="index.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+        <div id="openBtn" class="menu-button">
+          <div class="menu-line-one"></div>
+          <p class="menu-text">Menu</p>
+          <div class="menu-line-two"></div>
+        </div>
+      </nav>
+
+      <div class="scroll-nav" id="scroll-nav">
+        <div id="closeBtn" class="closeBtn">
+          <div class="close-line-one"></div>
+          <div class="close-line-two"></div>
+        </div>
+
+        <a href="index.html" class="nav-link nav-link-cont one">Helia</a>
+        <a id="nav-link-close" href="index.html#works" class="nav-link two" onclick="closeTab()">Works</a>
+        <a id="nav-link-close" href="index.html#contact" class="nav-link nav-link-cont three" onclick="closeTab()">Contact</a>
+        <a href="about.html" class="nav-link four">About</a>
+      </div>
+
+      <!-- body -->
+      <header class="transition grow is-active pixel-header">
+        <h2>Pixel Art & <br> Animation </h2>
+      </header>
+
+      <section class="game-sec-one">
+        <div class="game-proj show-on-scroll fade-in">
+          <h3>Pixel Art</h3>
+          <p id="tools">Tools: Aseprite</p>
+          <p>One of my hobbies is to draw small backgrounds or characters with pixel art. I specially enjoy using pixels because it is challenging but the results are always rewarding. One of my favorite works is a background i drew for a potential
+            2D endless runner game. I included clouds, mountains and a big moon in the landscape, and I only used different shades of the color purple. </p>
+        </div>
+        <div class="game-contrib show-on-scroll fade-in">
+          <h5>Date:</h5>
+          <p>Aug 2021</p>
+          <h5>Team:</h5>
+          <p>Art: Helia Golmohammadi</p>
+          <h5>Size: </h5>
+          <p>450px x 150px</p>
+        </div>
+      </section>
+
+      <section class="game-img">
+        <img class="web-gif" src="images/pixel/background.png" alt="game screenshot">
+      </section>
+
+    
+
+    </div>
+
+
+    <footer class="transition exit grow pixel-footer show-on-scroll slide-toview" data-hover="Click to view the next project">
+      <a href="logo.html" class="footer big"></a>
+      <h2>Logo Design </h2>
+      <!-- <a href="Game.html" class="previous">Previous project:</a> -->
+    </footer>
+  </main>
+
+  <script src="js/anim.js"></script>
+  <script src="js/sw-cache.js"></script>
+</body>
+
+</html>
