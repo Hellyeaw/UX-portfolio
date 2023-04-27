@@ -558,11 +558,11 @@ footer p {
 
 .abt-txt {
   font-size: 5vmax;
-  padding: 10vmax 6vmax 7vmax;
+  padding: 10vmax 6vmax 3vmax;
 }
 
 .abt-txt2 {
-  padding: 0.5vmax 6vmax;
+  padding: 1.5vmax 2vmax 0vmax 6vmax;
   font-size: 1.7vmax;
   font-weight: 500;
   width: 75%;
@@ -571,7 +571,7 @@ footer p {
 
 .abt-links {
   height: 100vh;
-  padding: 1vmax 6vmax 0;
+  padding: 3vmax 6vmax 0;
 }
 
 .abt-linkel {
@@ -579,12 +579,12 @@ footer p {
   text-decoration: none;
   color: black;
   display: inline-block;
-  padding-top: 2.5vmax;
+  padding-top: 2vmax;
 }
 
 .display-links-abt, .display-links-Ref {
   height: 0;
-  width: 90%;
+  width: 100%;
   z-index: 14;
   overflow: hidden;
   transition: all 0.2s;
@@ -595,7 +595,7 @@ footer p {
 }
 
 .changeRef {
-  height: 40vh;
+  height: 100vh;
 }
 
 .abt-linkel:hover, .abt-linkel-2:hover {
@@ -615,14 +615,14 @@ footer p {
 }
 
 .pic-cont {
-  height: 130vh;
+  height: 125vh;
 }
 
 .my-pic {
   position: relative;
-  left: 38vmax;
-  top: 5vmax;
-  width: 40%;
+  left: 45vmax;
+  top: 9vmax;
+  width: 35%;
   border-radius: 20px;
 }
 
