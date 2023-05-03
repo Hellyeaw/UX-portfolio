@@ -1217,6 +1217,56 @@ footer p {
   margin-bottom: 9vmax;
 }
 
+/* billy */
+
+.billy-pro {
+  padding:  0 0 5vmax;
+  display: flex;
+  justify-content: center;
+}
+
+.billy-gif {
+  padding: 2vmax 0;
+  display: flex;
+  justify-content: center;
+  width: 22%;
+  border-radius: 12%;
+}
+
+/* bioinspo */
+
+#bio-title {
+  font-size: 8vmax;
+}
+
+.bio-pic {
+  padding: 2vmax 0 0;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+#sk2 {
+  width: 46.6%;
+}
+
+.bio-pic2 {
+  padding: 1vmax 0 0;
+  display: flex;
+  justify-content: center;
+  width: 43%;
+}
+
+#td {
+  width: 60%;
+  padding: 0;
+}
+
+.biovid {
+  width: 40%;
+  margin-bottom: 3vmax;
+}
+
 
 /* elements transition */
 .slide-toview {
