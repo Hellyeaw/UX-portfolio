@@ -1266,6 +1266,14 @@ footer p {
   margin-bottom: 3vmax;
 }
 
+.bio-pic-1 {
+  width: 49%;
+}
+
+.bio-pic-2 {
+  width: 49%;
+}
+
 /* elements transition */
 .slide-toview {
   opacity: 0;
